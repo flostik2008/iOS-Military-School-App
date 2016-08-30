@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="voronzovskiy_dvorets_v_santkt_peterburge_11" translatesAutoresizingMaskIntoConstraints="NO" id="cdV-ZF-zOf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ahg-fh-zte">
+                                <rect key="frame" x="20" y="20" width="184" height="84"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗА ЧЕСТЬ," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1S-L7-fZG">
+                                        <rect key="frame" x="0.0" y="0.0" width="184" height="28"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="СОВЕСТЬ," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbK-oW-7bk">
+                                        <rect key="frame" x="0.0" y="28" width="184" height="28"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ДОСТОИНСТВО" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97I-ja-4eA">
+                                        <rect key="frame" x="0.0" y="56" width="184" height="28"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="mBQ-ja-3tg"/>
+                                    <constraint firstAttribute="height" constant="84" id="vh3-Df-3iG"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="29P-lB-C01">
+                                <rect key="frame" x="20" y="545" width="226" height="35"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="kmZ-g6-bof">
+                                        <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Санкт-Петербург" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APr-ed-Dhi">
+                                        <rect key="frame" x="45" y="0.0" width="181" height="35"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="226" id="FWR-mb-Tm8"/>
+                                    <constraint firstAttribute="height" constant="35" id="hc9-sb-9F5"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="cRG-D1-C2X">
+                                <rect key="frame" x="20" y="171" width="274" height="104"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="СУВОРОВСКОЕ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7k-UH-iH8">
+                                        <rect key="frame" x="0.0" y="0.0" width="273" height="42"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34.5"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="УЧИЛИЩЕ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNL-HG-hK1">
+                                        <rect key="frame" x="0.0" y="42" width="274" height="62"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="52"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="5XI-Z1-xA1"/>
+                                    <constraint firstAttribute="height" constant="104" id="Awg-9m-GzG"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="c0D-aX-Jcx">
+                                <rect key="frame" x="156" y="488" width="288" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEa-sh-OHf">
+                                        <rect key="frame" x="0.0" y="0.0" width="138" height="36"/>
+                                        <color key="backgroundColor" red="0.59794706990000002" green="0.81576611480000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="Fb0-cW-gyB"/>
+                                            <constraint firstAttribute="width" constant="138" id="tgU-kO-YH0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="ИСТОРИЯ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="oqh-Gc-Zuu" kind="show" id="m5x-WZ-kAW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtC-V0-k5V">
+                                        <rect key="frame" x="150" y="0.0" width="138" height="36"/>
+                                        <color key="backgroundColor" red="1" green="0.64104980119999999" blue="0.30968185479999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="Tog-YS-uUH"/>
+                                            <constraint firstAttribute="width" constant="138" id="tgo-5K-Kje"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="ФОТО">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="29P-lB-C01" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3mC-63-EiQ"/>
+                            <constraint firstAttribute="trailing" secondItem="cdV-ZF-zOf" secondAttribute="trailing" id="4ch-AZ-Yd5"/>
+                            <constraint firstItem="cdV-ZF-zOf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4rX-7b-Idy"/>
+                            <constraint firstItem="Ahg-fh-zte" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5S8-Wz-M8B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cdV-ZF-zOf" secondAttribute="trailing" constant="-62" id="8li-oK-EV5"/>
+                            <constraint firstItem="cRG-D1-C2X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9gj-v1-6PQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cdV-ZF-zOf" secondAttribute="trailing" id="DcL-sd-beM"/>
+                            <constraint firstItem="29P-lB-C01" firstAttribute="top" secondItem="c0D-aX-Jcx" secondAttribute="bottom" constant="21" id="Dxd-9k-aqo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cdV-ZF-zOf" secondAttribute="bottom" id="IbV-1c-RbA"/>
+                            <constraint firstItem="cdV-ZF-zOf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-194" id="IhM-9f-LZJ"/>
+                            <constraint firstItem="cdV-ZF-zOf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="OEk-c6-ozP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cdV-ZF-zOf" secondAttribute="bottom" id="RcD-iS-k0B"/>
+                            <constraint firstItem="cdV-ZF-zOf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UUm-WA-XRE"/>
+                            <constraint firstItem="c0D-aX-Jcx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W1D-Tl-ueK"/>
+                            <constraint firstItem="cRG-D1-C2X" firstAttribute="top" secondItem="Ahg-fh-zte" secondAttribute="bottom" constant="67" id="ZB3-6S-3g9">
+                                <variation key="heightClass=compact" constant="37"/>
+                            </constraint>
+                            <constraint firstItem="Ahg-fh-zte" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cgx-lQ-fFW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="29P-lB-C01" secondAttribute="bottom" constant="20" id="gc0-I1-75H"/>
+                            <constraint firstItem="cdV-ZF-zOf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="m13-EQ-XB9"/>
+                            <constraint firstItem="cdV-ZF-zOf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-45" id="rmj-0K-XSd"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="cdV-ZF-zOf" secondAttribute="bottom" constant="-45" id="tnU-SY-veg"/>
+                            <constraint firstItem="29P-lB-C01" firstAttribute="top" secondItem="c0D-aX-Jcx" secondAttribute="bottom" constant="21" id="zT5-mn-Yu7">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4rX-7b-Idy"/>
+                                <exclude reference="8li-oK-EV5"/>
+                                <exclude reference="DcL-sd-beM"/>
+                                <exclude reference="IhM-9f-LZJ"/>
+                                <exclude reference="OEk-c6-ozP"/>
+                                <exclude reference="rmj-0K-XSd"/>
+                                <exclude reference="tnU-SY-veg"/>
+                                <exclude reference="zT5-mn-Yu7"/>
+                                <exclude reference="RcD-iS-k0B"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="Dxd-9k-aqo"/>
+                                <include reference="zT5-mn-Yu7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="moreBtn" destination="IEa-sh-OHf" id="NaJ-B5-ASj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="315"/>
+        </scene>
+        <!--DitailVC-->
+        <scene sceneID="br9-Vz-sYq">
+            <objects>
+                <viewController id="oqh-Gc-Zuu" customClass="DitailVC" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nRc-7m-Apr"/>
+                        <viewControllerLayoutGuide type="bottom" id="DE6-cB-haE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="YIt-hY-3Nx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="2760"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="60vypusk01" translatesAutoresizingMaskIntoConstraints="NO" id="Aiw-fq-lJk">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="KLV-vu-c7M"/>
+                                    <constraint firstAttribute="height" constant="100" id="qGc-n9-ySN">
+                                        <variation key="heightClass=compact" constant="100"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qGc-n9-ySN"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="qGc-n9-ySN"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ИСТОРИЯ СПб СВУ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1Z-RN-v7K">
+                                <rect key="frame" x="188" y="89" width="225" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="Loy-Fp-uNj"/>
+                                    <constraint firstAttribute="height" constant="28" id="g4z-xl-GJ2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kU-wS-kXW">
+                                <rect key="frame" x="21" y="15" width="63" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Назад">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="oqh-Gc-Zuu" eventType="touchUpInside" id="JPm-2W-hEr"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YAr-LC-ede">
+                                <rect key="frame" x="0.0" y="205" width="600" height="2547"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZmJ-ya-7lH">
+                                        <rect key="frame" x="0.0" y="-206" width="600" height="2753"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BlB-cz-eaQ">
+                                                <rect key="frame" x="8" y="14" width="300" height="61"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ОСНОВАНО В" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0A-xg-FK5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="28"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="28" id="0Nd-Nl-gHf"/>
+                                                            <constraint firstAttribute="width" constant="300" id="HaQ-Co-eVa"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                        <size key="shadowOffset" width="1" height="1"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1955" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gX6-WA-zVW">
+                                                        <rect key="frame" x="0.0" y="33" width="300" height="28"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="28" id="9Cf-aL-7VM"/>
+                                                            <constraint firstAttribute="width" constant="300" id="jZ0-XW-5QG"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                        <size key="shadowOffset" width="1" height="1"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="l0A-xg-FK5" firstAttribute="leading" secondItem="BlB-cz-eaQ" secondAttribute="leading" id="IZ1-7c-jf9"/>
+                                                    <constraint firstItem="l0A-xg-FK5" firstAttribute="top" secondItem="BlB-cz-eaQ" secondAttribute="top" id="e4b-L2-TqO"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="IZ1-7c-jf9"/>
+                                                        <exclude reference="e4b-L2-TqO"/>
+                                                    </mask>
+                                                </variation>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ИСТОРИЯ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPF-xi-Yzp">
+                                                <rect key="frame" x="8" y="102" width="300" height="28"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="300" id="SJk-ag-IO8"/>
+                                                    <constraint firstAttribute="height" constant="28" id="l9u-6u-UPd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ДЕЯТЕЛЬНОСТЬ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gr9-YJ-fHw">
+                                                <rect key="frame" x="8" y="1341" width="300" height="28"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="300" id="3Rr-Iz-l29"/>
+                                                    <constraint firstAttribute="height" constant="28" id="egP-WN-KuI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="НАЧАЛЬНИКИ УЧИЛИЩА" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAn-7e-vhz">
+                                                <rect key="frame" x="8" y="2119" width="300" height="28"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="300" id="YrF-Hx-31i"/>
+                                                    <constraint firstAttribute="height" constant="28" id="wWr-VN-jWj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="70" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6Q-TB-yh0">
+                                                <rect key="frame" x="8" y="131" width="300" height="1193"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="250" id="5OP-0Q-bNZ"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="423" id="9FO-tU-uMf"/>
+                                                    <constraint firstAttribute="height" constant="28" id="WUf-7n-lb5"/>
+                                                </constraints>
+                                                <mutableString key="text">Ленинградское (ныне — Санкт-Петербургское) Суворовское военное училище образовано в 1955 году в соответствии с директивой Главнокомандующего Сухопутными войсками от 28.04.1955 года на базе Ленинградского дважды Краснознамённого военного училища имени С. М. Кирова.
+Суворовцы совместно с курсантами стали обучаться в Воронцовском дворце, построенном в 1757 году архитектором Растрелли. С 1802 по 1918 годы в нём располагался Пажеский корпус — самое привилегированное военно-учебное заведение России, который, в свою очередь, ведет историю от Придворного пансионата, основанного в 1742 году. С 1918 года здание находилось в распоряжении военного ведомства. Там располагались военно-инженерные курсы, пехотная школа.
+В 1956 году был произведён первый выпуск суворовцев.
+14 декабря 2013 года на территории Суворовского училища был открыт памятник выпускникам Суворовских училищ и кадетских корпусов скульптора Карэна Саркисова. Композиция воссоздаёт сюжет картины художника Ф. П. Решетникова «Прибыл на каникулы»: маленький военный докладывает деду о прибытии в отпуск. Памятник был установлен по инициативе командующего войсками Западного военного округа Анатолия Сидорова, который сам окончил Суворовское училище, и в ознаменование 70-летия Суворовских военных и Нахимовских военно-морских училищ. На церемонии открытия памятника выступил губернатор Санкт-Петербурга Георгий Полтавченко.</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="5OP-0Q-bNZ"/>
+                                                        <exclude reference="9FO-tU-uMf"/>
+                                                        <exclude reference="WUf-7n-lb5"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="70" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rE8-6h-MPA">
+                                                <rect key="frame" x="8" y="1377" width="300" height="728"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="250" id="OAa-3r-AjB"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="423" id="dHO-jt-664"/>
+                                                    <constraint firstAttribute="height" constant="28" id="e7G-pu-n9M"/>
+                                                </constraints>
+                                                <mutableString key="text">Более 13 тысяч воспитанников выпустило училище за период своего существования, из них 9 выпускников удостоены звания Героя Советского Союза и Героев Российской Федерации. При выполнении воинского долга погибло 86 выпускников Санкт-Петербургского СВУ.
+
+Деятельность Санкт-Петербургского Суворовского военного училища разделяется на несколько этапов:
+
+I этап (1955—1958) — этап совместного обучения суворов­цев и курсантов;
+II этап (1958—1964) — 7-летний период обучения суворовцев,
+когда училище стало самостоятельным военно-учебным заведением и получи­ло статус юридического лица;
+III этап (1964—1969) — 3-летний период обучения суворовцев;
+IV этап (1969—1992) — 2-летний период обучения суворовцев;
+V этап (1992—2008) — 3-летний период обучения суворовцев;
+VI этап (2008- н.в.) — переход на 7-летний период обучения суворовцев.</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="OAa-3r-AjB"/>
+                                                        <exclude reference="dHO-jt-664"/>
+                                                        <exclude reference="e7G-pu-n9M"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="70" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ws-nP-Mvv">
+                                                <rect key="frame" x="8" y="2155" width="300" height="572"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="28" id="Gvr-9Q-SoV"/>
+                                                    <constraint firstAttribute="width" constant="250" id="Hu8-8R-2Vc"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="423" id="U69-BV-n6k"/>
+                                                </constraints>
+                                                <mutableString key="text">1955—1956 — генерал-майор Добровольский Фёдор Григорьевич
+1956—1960 — генерал-майор Лазарев Константин Аркадьевич
+1960—1964 — генерал-майор Мироненко Иван Лукич
+1964—1970 — генерал-майор Широканов Александр Георгиевич
+1970—1977 — генерал-майор Соловьёв Владимир Георгиевич
+1977—1986 — генерал-майор Шумаев Василий Иванович
+1986—1991 — генерал-майор Константинов Владимир Викторович
+1991—2003 — генерал-майор Скоблов Валерий Николаевич
+2003—2010 — полковник Боков Владимир Николаевич
+2010—2011 — майор запаса Калюжнова Вероника Геннадьевна, (ВрИО)
+2011- н.в. — полковник запаса Ермолов Евгений Михайлович</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="Hu8-8R-2Vc"/>
+                                                        <exclude reference="U69-BV-n6k"/>
+                                                        <exclude reference="Gvr-9Q-SoV"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="k6Q-TB-yh0" firstAttribute="top" secondItem="VPF-xi-Yzp" secondAttribute="bottom" constant="1" id="0Rk-Oc-M7Z"/>
+                                            <constraint firstAttribute="trailing" secondItem="3Ws-nP-Mvv" secondAttribute="trailing" constant="10" id="175-XC-3MF"/>
+                                            <constraint firstItem="fAn-7e-vhz" firstAttribute="top" secondItem="rE8-6h-MPA" secondAttribute="bottom" constant="27" id="2Gw-QB-AVv"/>
+                                            <constraint firstItem="k6Q-TB-yh0" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="2eD-xM-sS7"/>
+                                            <constraint firstItem="BlB-cz-eaQ" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="DyO-sA-GH2"/>
+                                            <constraint firstItem="VPF-xi-Yzp" firstAttribute="top" secondItem="BlB-cz-eaQ" secondAttribute="bottom" constant="27" id="UcE-fl-oiF"/>
+                                            <constraint firstItem="rE8-6h-MPA" firstAttribute="top" secondItem="gr9-YJ-fHw" secondAttribute="bottom" constant="1" id="Uph-PY-2h7"/>
+                                            <constraint firstItem="BlB-cz-eaQ" firstAttribute="top" secondItem="ZmJ-ya-7lH" secondAttribute="top" constant="14" id="WEN-db-4i9"/>
+                                            <constraint firstItem="gr9-YJ-fHw" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="aww-dP-ENu"/>
+                                            <constraint firstItem="k6Q-TB-yh0" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="bVE-hD-rNt"/>
+                                            <constraint firstAttribute="trailing" secondItem="k6Q-TB-yh0" secondAttribute="trailing" constant="10" id="bnc-HJ-nOc"/>
+                                            <constraint firstItem="3Ws-nP-Mvv" firstAttribute="top" secondItem="rE8-6h-MPA" secondAttribute="bottom" constant="1" id="c8H-VY-FrX"/>
+                                            <constraint firstItem="rE8-6h-MPA" firstAttribute="top" secondItem="k6Q-TB-yh0" secondAttribute="bottom" constant="42" id="fPz-nM-m4m"/>
+                                            <constraint firstItem="gr9-YJ-fHw" firstAttribute="top" secondItem="k6Q-TB-yh0" secondAttribute="bottom" constant="27" id="h8m-a5-9is"/>
+                                            <constraint firstAttribute="height" constant="2753" id="hX0-v2-Acj"/>
+                                            <constraint firstItem="3Ws-nP-Mvv" firstAttribute="top" secondItem="fAn-7e-vhz" secondAttribute="bottom" constant="1" id="jPV-Kc-2Xt"/>
+                                            <constraint firstItem="VPF-xi-Yzp" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="kC5-yN-5N6"/>
+                                            <constraint firstItem="k6Q-TB-yh0" firstAttribute="top" secondItem="VPF-xi-Yzp" secondAttribute="bottom" constant="1" id="ova-4m-Mpw"/>
+                                            <constraint firstAttribute="trailing" secondItem="rE8-6h-MPA" secondAttribute="trailing" constant="10" id="qFC-8M-2ln"/>
+                                            <constraint firstItem="fAn-7e-vhz" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="qK5-mp-yeC"/>
+                                            <constraint firstItem="rE8-6h-MPA" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="y94-31-02l"/>
+                                            <constraint firstItem="3Ws-nP-Mvv" firstAttribute="leading" secondItem="ZmJ-ya-7lH" secondAttribute="leading" constant="8" id="z0f-LH-Q9E"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="2eD-xM-sS7"/>
+                                                <exclude reference="ova-4m-Mpw"/>
+                                                <exclude reference="fPz-nM-m4m"/>
+                                                <exclude reference="c8H-VY-FrX"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZmJ-ya-7lH" firstAttribute="leading" secondItem="YAr-LC-ede" secondAttribute="leading" id="9tr-lp-M0I"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZmJ-ya-7lH" secondAttribute="bottom" id="DH4-Tx-g7K"/>
+                                    <constraint firstItem="ZmJ-ya-7lH" firstAttribute="top" secondItem="YAr-LC-ede" secondAttribute="top" id="Ge0-Nh-jne"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZmJ-ya-7lH" secondAttribute="trailing" id="ebh-AY-9gA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YAr-LC-ede" secondAttribute="trailing" id="8nF-Ng-Tzy"/>
+                            <constraint firstItem="T1Z-RN-v7K" firstAttribute="top" secondItem="nRc-7m-Apr" secondAttribute="bottom" constant="50" id="G7T-sM-4CJ"/>
+                            <constraint firstItem="DE6-cB-haE" firstAttribute="top" secondItem="YAr-LC-ede" secondAttribute="bottom" id="Jgq-S3-eDe"/>
+                            <constraint firstItem="ZmJ-ya-7lH" firstAttribute="width" secondItem="YIt-hY-3Nx" secondAttribute="width" id="Ldh-bh-0o4"/>
+                            <constraint firstItem="Aiw-fq-lJk" firstAttribute="top" secondItem="YIt-hY-3Nx" secondAttribute="top" id="NvB-z6-tGI"/>
+                            <constraint firstItem="YAr-LC-ede" firstAttribute="top" secondItem="Aiw-fq-lJk" secondAttribute="bottom" id="OXO-Rg-lCL"/>
+                            <constraint firstItem="T1Z-RN-v7K" firstAttribute="centerX" secondItem="YIt-hY-3Nx" secondAttribute="centerX" id="OuH-kB-Qal"/>
+                            <constraint firstItem="YAr-LC-ede" firstAttribute="leading" secondItem="YIt-hY-3Nx" secondAttribute="leading" id="Ov4-tI-SlD"/>
+                            <constraint firstItem="T1Z-RN-v7K" firstAttribute="top" secondItem="nRc-7m-Apr" secondAttribute="bottom" constant="69" id="Rar-xb-kgT"/>
+                            <constraint firstItem="T1Z-RN-v7K" firstAttribute="centerX" secondItem="YIt-hY-3Nx" secondAttribute="centerX" id="a8P-ug-F4l"/>
+                            <constraint firstItem="Aiw-fq-lJk" firstAttribute="leading" secondItem="YIt-hY-3Nx" secondAttribute="leading" id="gaL-X0-aKA"/>
+                            <constraint firstItem="T1Z-RN-v7K" firstAttribute="centerX" secondItem="YIt-hY-3Nx" secondAttribute="centerX" id="jjw-3C-1gP"/>
+                            <constraint firstItem="DE6-cB-haE" firstAttribute="top" secondItem="YAr-LC-ede" secondAttribute="bottom" id="tdO-Dw-TkM"/>
+                            <constraint firstAttribute="trailing" secondItem="Aiw-fq-lJk" secondAttribute="trailing" id="tf4-xY-lep"/>
+                            <constraint firstItem="T1Z-RN-v7K" firstAttribute="centerY" secondItem="YIt-hY-3Nx" secondAttribute="centerY" id="ufS-gB-z9u"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OuH-kB-Qal"/>
+                                <exclude reference="Rar-xb-kgT"/>
+                                <exclude reference="jjw-3C-1gP"/>
+                                <exclude reference="ufS-gB-z9u"/>
+                                <exclude reference="tdO-Dw-TkM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="2760"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgf-lT-GHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1793" y="314"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="60vypusk01" width="468" height="245"/>
+        <image name="compass" width="35" height="35"/>
+        <image name="voronzovskiy_dvorets_v_santkt_peterburge_11" width="1000" height="750"/>
+    </resources>
+</document>
