@@ -17,6 +17,8 @@
 		877D1BCB1D74199A00368245 /* DitailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877D1BCA1D74199A00368245 /* DitailVC.swift */; };
 		8789969C1D74FB970072C875 /* Tasks.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8789969B1D74FB970072C875 /* Tasks.rtf */; };
 		8789969E1D74FE7E0072C875 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789969D1D74FE7E0072C875 /* PhotosVC.swift */; };
+		878996C51D764DD00072C875 /* CollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878996C41D764DD00072C875 /* CollectionVCell.swift */; };
+		878996C71D764E150072C875 /* ImageDitailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878996C61D764E150072C875 /* ImageDitailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		877D1BCA1D74199A00368245 /* DitailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DitailVC.swift; sourceTree = "<group>"; };
 		8789969B1D74FB970072C875 /* Tasks.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Tasks.rtf; sourceTree = "<group>"; };
 		8789969D1D74FE7E0072C875 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
+		878996C41D764DD00072C875 /* CollectionVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVCell.swift; sourceTree = "<group>"; };
+		878996C61D764E150072C875 /* ImageDitailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDitailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 				877D1B9E1D73FFD800368245 /* ViewController.swift */,
 				877D1BCA1D74199A00368245 /* DitailVC.swift */,
 				8789969D1D74FE7E0072C875 /* PhotosVC.swift */,
+				878996C41D764DD00072C875 /* CollectionVCell.swift */,
+				878996C61D764E150072C875 /* ImageDitailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -295,6 +301,8 @@
 			files = (
 				877D1B9F1D73FFD800368245 /* ViewController.swift in Sources */,
 				877D1BCB1D74199A00368245 /* DitailVC.swift in Sources */,
+				878996C51D764DD00072C875 /* CollectionVCell.swift in Sources */,
+				878996C71D764E150072C875 /* ImageDitailVC.swift in Sources */,
 				877D1B9D1D73FFD800368245 /* AppDelegate.swift in Sources */,
 				8789969E1D74FE7E0072C875 /* PhotosVC.swift in Sources */,
 			);

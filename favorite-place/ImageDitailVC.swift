@@ -1,30 +1,28 @@
 //
-//  ViewController.swift
+//  ImageDitailVC.swift
 //  favorite-place
 //
-//  Created by Evgeny Vlasov on 8/28/16.
+//  Created by Evgeny Vlasov on 8/30/16.
 //  Copyright © 2016 Evgeny Vlasov. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var moreBtn: UIButton!
-    @IBOutlet weak var photoBtn: UIButton!
+class ImageDitailVC: UIViewController {
     
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var image = UIImage ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        moreBtn.layer.cornerRadius = 5.0
-        photoBtn.layer.cornerRadius = 5.0
+
+        self.imageView.image = self.image
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
-
