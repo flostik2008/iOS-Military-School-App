@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873E8F1F1D78AA67000F2909 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E8F1E1D78AA67000F2909 /* WebViewVC.swift */; };
 		877D1B9D1D73FFD800368245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877D1B9C1D73FFD800368245 /* AppDelegate.swift */; };
 		877D1B9F1D73FFD800368245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877D1B9E1D73FFD800368245 /* ViewController.swift */; };
 		877D1BA21D73FFD800368245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877D1BA01D73FFD800368245 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		873E8F1E1D78AA67000F2909 /* WebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		877D1B991D73FFD800368245 /* favorite-place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "favorite-place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877D1B9C1D73FFD800368245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		877D1B9E1D73FFD800368245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				877D1BCA1D74199A00368245 /* DitailVC.swift */,
 				8789969D1D74FE7E0072C875 /* PhotosVC.swift */,
 				878996C41D764DD00072C875 /* CollectionVCell.swift */,
+				873E8F1E1D78AA67000F2909 /* WebViewVC.swift */,
 				878996C61D764E150072C875 /* ImageDitailVC.swift */,
 			);
 			name = Controller;
@@ -302,6 +305,7 @@
 				877D1B9F1D73FFD800368245 /* ViewController.swift in Sources */,
 				877D1BCB1D74199A00368245 /* DitailVC.swift in Sources */,
 				878996C51D764DD00072C875 /* CollectionVCell.swift in Sources */,
+				873E8F1F1D78AA67000F2909 /* WebViewVC.swift in Sources */,
 				878996C71D764E150072C875 /* ImageDitailVC.swift in Sources */,
 				877D1B9D1D73FFD800368245 /* AppDelegate.swift in Sources */,
 				8789969E1D74FE7E0072C875 /* PhotosVC.swift in Sources */,
